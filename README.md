@@ -1,6 +1,7 @@
 # INI
 
-Basic INI syntax parsing and abstraction
+Package ini provides basic INI syntax parsing and abstraction involving
+string variable definitions in sections with preserved ordering.
 
 ## License
 
@@ -13,6 +14,7 @@ The following is a valid INI example. Parsing the following data would
 produce an `INI` instance comprised of two (2) \*`Section` slices.
 
 ```
+; this is a comment
 [sectionname]
 
 var1: value
@@ -21,6 +23,7 @@ var2: multi
   values
   are
   cool
+;var3: bad stuff
 
 [subsectionname]
 
