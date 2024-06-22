@@ -1,7 +1,7 @@
 # INI
 
-Package ini provides basic INI syntax parsing and abstraction involving
-string variable definitions in sections with preserved ordering.
+Package ini provides basic INI syntax parsing and abstraction, supporting
+section-based string variable definitions with fixed ordering.
 
 ## License
 
