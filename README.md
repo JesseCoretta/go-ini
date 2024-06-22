@@ -10,7 +10,7 @@ full details, see the LICENSE file in the package root.
 ## Syntax Example
 
 The following is a valid INI example. Parsing the following data would
-produce an `INI` instance comprised of two (2) `\*Section` slices.
+produce an `INI` instance comprised of two (2) \*`Section` slices.
 
 ```
 [sectionname]
